@@ -37,19 +37,20 @@ module.exports = {
       when: 'isNotTest',
       type: 'string',
       required: true,
-      message: 'Project name',
+      message: 'give a project name ',
     },
     description: {
       when: 'isNotTest',
       type: 'string',
       required: false,
-      message: 'Project description',
-      default: 'A Vue.js project',
+      message: 'please give a project description',
+      default: 'A private Vue.js project',
     },
     author: {
       when: 'isNotTest',
       type: 'string',
       message: 'Author',
+      default: 'shiyaping'
     },
     build: {
       when: 'isNotTest',
