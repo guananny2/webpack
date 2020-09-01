@@ -37,7 +37,7 @@ module.exports = {
       when: 'isNotTest',
       type: 'string',
       required: true,
-      message: 'give a project name ',
+      message: 'please give a project name ',
     },
     description: {
       when: 'isNotTest',
@@ -55,7 +55,7 @@ module.exports = {
     build: {
       when: 'isNotTest',
       type: 'list',
-      message: 'Vue build',
+      message: 'How Vue build',
       choices: [
         {
           name: 'Runtime + Compiler: recommended for most users',
@@ -73,7 +73,7 @@ module.exports = {
     router: {
       when: 'isNotTest',
       type: 'confirm',
-      message: 'Install vue-router?',
+      message: 'Are you sure install vue-router?',
     },
     lint: {
       when: 'isNotTest',
