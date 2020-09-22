@@ -75,6 +75,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    websocket: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install vue-websocket?'
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
