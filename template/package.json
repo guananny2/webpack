@@ -83,7 +83,7 @@
     "selenium-server": "^3.0.1",
     {{/e2e}}
     {{#websocket}}
-    "vue-websocket": "^0.2.3",
+    "vue-native-websocket": "^2.0.14",
     {{/websocket}}
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",

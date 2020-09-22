@@ -8,8 +8,8 @@ import App from './App'
 import router from './router'
 {{/router}}
 {{#websocket}}
-import VueWebsocket from "vue-websocket"
-Vue.use(VueWebsocket)
+import VueNativeSock from 'vue-native-websocket'
+Vue.use(VueNativeSock, 'ws://localhost:8080/ws')
 {{/websocket}}
 
 Vue.config.productionTip = false
