@@ -7,6 +7,10 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
+{{#websocket}}
+import VueWebsocket from "vue-websocket"
+Vue.use(VueWebsocket)
+{{/websocket}}
 
 Vue.config.productionTip = false
 
