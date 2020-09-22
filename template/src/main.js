@@ -4,7 +4,7 @@ import router from './router'
 import 'common/stylus/index.styl'
 import 'assets/icons/index.js'
 import api from './api'
-
+// test template
 Vue.config.productionTip = false
 Vue.prototype.$http = api
 
